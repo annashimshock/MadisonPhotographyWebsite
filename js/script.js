@@ -12,3 +12,10 @@ images.forEach(image => {
 lightbox.addEventListener("click", () => {
   lightbox.style.display = "none";
 });
+
+const toggle = document.querySelector('.menu-toggle');
+const nav = document.querySelector('nav');
+
+toggle.addEventListener('click', () => {
+  nav.classList.toggle('show');
+});

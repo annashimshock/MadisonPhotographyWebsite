@@ -6,8 +6,9 @@ body {
   line-height: 1.6;
 }
 
-
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: 'Playfair Display', serif;
 }
 
@@ -27,6 +28,43 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+
+@media screen and (max-width: 600px) {
+  nav {
+    position: fixed;
+    left: -200px;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #ebe7e7;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    transition: left 0.3s ease;
+    z-index: 100;
+  }
+
+  nav.show {
+    left: 0;
+  }
+
+  nav a {
+    margin: 10px 0;
+  }
+
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-left: auto;
+  }
+}
+
+/* Hide toggle on desktop */
+.menu-toggle {
+  display: none;
+}
+
 
 nav a {
   color: #000000;
@@ -56,15 +94,16 @@ footer {
 
 
 .gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 15px;
-  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 20px;
+  padding: 40px;
 }
 
 .gallery img {
   width: 100%;
+  max-width: 280px;
   height: auto;
   border-radius: 8px;
   cursor: pointer;
