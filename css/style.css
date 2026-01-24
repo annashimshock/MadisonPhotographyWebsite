@@ -34,48 +34,6 @@ header {
 }
 
 @media screen and (max-width: 600px) {
-  header {
-    flex-direction: row;
-    /* keep h1 and menu-toggle in a row */
-    justify-content: space-between;
-  }
-
-  nav {
-    position: fixed;
-    top: 0;
-    right: -220px;
-    /* hide offscreen initially */
-    width: 200px;
-    height: 100%;
-    background-color: #000;
-    display: flex;
-    flex-direction: column;
-    padding: 60px 20px 20px 20px;
-    transition: right 0.3s ease;
-    z-index: 1000;
-  }
-
-  nav a {
-    margin: 15px 0;
-    font-size: 1.2rem;
-  }
-
-  nav.show {
-    right: 0;
-    /* slide in */
-  }
-
-  .menu-toggle {
-    display: block;
-    font-size: 1.8rem;
-    cursor: pointer;
-  }
-
-  h1 {
-    font-size: 1.5rem;
-    /* shrink header on small screens */
-  }
-}@media screen and (max-width: 600px) {
 
   header {
     flex-direction: row; /* keep h1 and toggle in a row */
