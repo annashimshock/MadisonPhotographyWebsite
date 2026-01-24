@@ -59,6 +59,24 @@ footer {
   opacity: 0.9;
 }
 
+.gallery-item {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
 #lightbox {
   position: fixed;
   top: 0;
