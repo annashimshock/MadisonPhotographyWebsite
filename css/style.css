@@ -75,7 +75,58 @@ header {
     font-size: 1.5rem;
     /* shrink header on small screens */
   }
+}@media screen and (max-width: 600px) {
+
+  header {
+    flex-direction: row; /* keep h1 and toggle in a row */
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+  }
+
+  /* Show hamburger */
+  .menu-toggle {
+    display: block;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  /* Mobile nav - hidden initially */
+  nav {
+    position: fixed;
+    top: 0;
+    right: -220px; /* offscreen */
+    width: 200px;
+    height: 100%;
+    background-color: #ebe7e7;
+    flex-direction: column;
+    padding: 60px 20px 20px 20px;
+    transition: right 0.3s ease;
+    z-index: 1000;
+  }
+
+  /* Show nav when toggled */
+  nav.show {
+    right: 0;
+  }
+
+  nav a {
+    margin: 15px 0;
+    font-size: 1.2rem;
+    color: #000;
+    text-decoration: none;
+  }
+
+  /* Remove desktop left margin on mobile */
+  nav a {
+    margin-left: 0;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
 }
+
 
 nav a {
   color: #000000;
