@@ -9,4 +9,4 @@ A responsive photography portfolio website built with HTML, CSS, and JavaScript.
 - Built for a real client
 
 ### Live Site
-[View Website](https://yourusername.github.io/photographer-portfolio/)
+[View Website](https://annashimshock.github.io/MadisonPhotographyWebsite/)
