@@ -1,0 +1,28 @@
+Website Layout
+
+Vibe: nice and slick
+
+Pages
+
+	Home
+best photos
+information 
+what you do best
+
+	Gallery
+organized by group
+headshots/weddings/concerts/etc.
+project
+senior photos
+portraits
+concert
+weddings
+
+	About
+more information about you
+why should people book you
+
+	Contact/Booking
+email
+instagram
+pricing
