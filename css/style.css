@@ -330,11 +330,16 @@ footer {
 
   /* --- Homepage Hero --- */
 .hero {
-  background: 
+  background-image: 
     linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-    url('.../images/House.jpeg') no-repeat center center / cover;
-  height: 100vh;
+    url('../images/House.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  min-height: 100vh;
   width: 100%;
+  
   display: flex;
   align-items: center;
   justify-content: center;
