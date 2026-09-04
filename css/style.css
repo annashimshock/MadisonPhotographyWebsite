@@ -96,15 +96,6 @@ nav a:hover {
   text-decoration: underline;
 }
 
-.hero {
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
 footer {
   text-align: center;
   padding: 20px;
@@ -327,8 +318,8 @@ footer {
   .category-card--wide {
     min-height: 280px;
   }
+}
 
-  /* --- Homepage Hero --- */
 .hero {
   background-image: 
     linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
@@ -378,5 +369,4 @@ footer {
 .hero-btn:hover {
   background-color: #ffffff;
   color: #111111;
-}
 }
