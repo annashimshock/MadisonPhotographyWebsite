@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const imageSrc = typeof image === "string" ? image : image.src;
       return`
       <div class="gallery-item">
-        <img src="${imageSrc}">
+        <img src="${image.src}">
       </div>
     `;
   }).join("");
