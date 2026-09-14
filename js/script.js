@@ -3,7 +3,20 @@ document.addEventListener("DOMContentLoaded", () => {
     portraits: {
       title: "Portraits",
       description: "Relaxed portraits that feel like you, not a performance.",
-      images: [{ src: "images/portraits/aidan.jpg"}, { src: "images/portraits/anna.jpeg"}, { src: "images/portraits/arsema.jpg"}, { src: "images/portraits/cayla.jpeg"}, { src: "images/portraits/chayla.jpeg"}, { src: "images/portraits/felix.jpeg"}, { src: "images/portraits/kage.jpeg"}, { src: "images/portraits/karla.jpeg"}, { src: "images/portraits/leilani.jpeg"}, { src: "images/portraits/mori.jpeg"}, { src: "images/portraits/sophia.jpeg"}, { src: "images/portraits/syvlia.jpeg"}, { src: "images/portraits/sylvia2.jpeg"}]
+      images: [
+        { src: "images/portraits/aidan.jpg"}, 
+        { src: "images/portraits/anna.jpeg"}, 
+        { src: "images/portraits/arsema.jpg"}, 
+        { src: "images/portraits/cayla.jpeg"}, 
+        { src: "images/portraits/chayla.jpeg"}, 
+        { src: "images/portraits/felix.jpeg"}, 
+        { src: "images/portraits/kage.jpeg"}, 
+        { src: "images/portraits/karla.jpeg"}, 
+        { src: "images/portraits/leilani.jpeg"}, 
+        { src: "images/portraits/mori.jpeg"}, 
+        { src: "images/portraits/sophia.jpeg"}, 
+        { src: "images/portraits/syvlia.jpeg"}, 
+        { src: "images/portraits/sylvia2.jpeg"}]
     },
     projects: {
       title: "Projects",
@@ -36,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("category-description").textContent = category.description;
     categoryGallery.innerHTML = category.images.map(image => `
       <div class="gallery-item">
-        <img src="${image.src}" alt="${image.alt}">
+        <img src="${image.src}">
       </div>
     `).join("");
   }
