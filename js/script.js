@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     portraits: {
       title: "Portraits",
       description: "Relaxed portraits that feel like you, not a performance.",
-      images: [{ src: "images/Sophia.jpeg"}, { src: "images/Kage.jpeg"}, { src: "images/Anna.jpg"}, { src: "images/Felix.jpeg"}]
+      images: [{ src: "images/portraits/aidan.jpg"}, { src: "images/portraits/anna.jpeg"}, { src: "images/portraits/arsema.jpg"}, { src: "images/portraits/cayla.jpeg"}, { src: "images/portraits/chayla.jpeg"}, { src: "images/portraits/felix.jpeg"}, { src: "images/portraits/kage.jpeg"}, { src: "images/portraits/karla.jpeg"}, { src: "images/portraits/leilani.jpeg"}, { src: "images/portraits/mori.jpeg"}, { src: "images/portraits/sophia.jpeg"}, { src: "images/portraits/syvlia.jpeg"}, { src: "images/portraits/sylvia2.jpeg"}]
     },
     projects: {
       title: "Projects",
