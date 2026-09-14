@@ -3,27 +3,27 @@ document.addEventListener("DOMContentLoaded", () => {
     portraits: {
       title: "Portraits",
       description: "Relaxed portraits that feel like you, not a performance.",
-      images: [{ src: "images/Sophia.jpeg", alt: "Portrait session" }]
+      images: [{ src: "images/Sophia.jpeg"}, { src: "images/Kage.jpeg"}, { src: "images/Anna.jpg"}, { src: "images/Felix.jpeg"}]
     },
-    "senior-photos": {
-      title: "Senior Photos",
+    projects: {
+      title: "Projects",
       description: "A bright, personal collection for the start of something new.",
-      images: [{ src: "images/Kage.jpeg", alt: "Senior photo session" }]
+      images: [{ src: "images/Kage.jpeg"}]
     },
     concerts: {
       title: "Concerts",
       description: "The energy, color, and split seconds that make a live show unforgettable.",
-      images: [{ src: "images/House.jpeg", alt: "Live music photography" }]
+      images: [{ src: "images/House.jpeg"}]
     },
     weddings: {
       title: "Weddings",
       description: "Honest images of the day, from the big promises to the quiet glances.",
-      images: [{ src: "images/Anna.jpg", alt: "Wedding photography" }]
+      images: [{ src: "images/Anna.jpg"}]
     },
-    headshots: {
-      title: "Headshots",
+    landscapes: {
+      title: "Landscapes",
       description: "Clean, confident portraits for wherever your work takes you.",
-      images: [{ src: "images/Felix.jpeg", alt: "Headshot session" }]
+      images: [{ src: "images/House.jpeg"}]
     }
   };
 
