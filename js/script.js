@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "images/portraits/leilani.jpg"}, 
         { src: "images/portraits/mori.jpg"}, 
         { src: "images/portraits/sophia.JPG"}, 
-        { src: "images/portraits/syvlia.jpg"}, 
+        { src: "images/portraits/sylvia.jpg"}, 
         { src: "images/portraits/sylvia2.jpg"}]
     },
     projects: {
