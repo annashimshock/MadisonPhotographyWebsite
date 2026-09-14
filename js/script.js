@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("category-description").textContent = category.description;
     categoryGallery.innerHTML = category.images.map(image => `
       <div class="gallery-item">
-        <img src="${image.src}">
+        <img src="${src}">
       </div>
     `).join("");
   }
