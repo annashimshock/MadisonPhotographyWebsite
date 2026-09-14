@@ -4,19 +4,19 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "Portraits",
       description: "Relaxed portraits that feel like you, not a performance.",
       images: [
-        "images/portraits/aidan.jpg", 
-        "images/portraits/anna.jpg", 
-        "images/portraits/arsema.jpg", 
-        "images/portraits/cayla.jpg", 
-        "images/portraits/chayla.jpg", 
-        "images/portraits/felix.jpg", 
-        "images/portraits/kage.jpg", 
-        "images/portraits/karla.jpg", 
-        "images/portraits/leilani.jpg", 
-        "images/portraits/mori.jpg", 
-        "images/portraits/sophia.JPG", 
-        "images/portraits/syvlia.jpg", 
-        "images/portraits/sylvia2.jpg"]
+        { src: "images/portraits/aidan.jpg"}, 
+        { src: "images/portraits/anna.jpg"}, 
+        { src: "images/portraits/arsema.jpg"}, 
+        { src: "images/portraits/cayla.jpg"}, 
+        { src: "images/portraits/chayla.jpg"}, 
+        { src: "images/portraits/felix.jpg"}, 
+        { src: "images/portraits/kage.jpg"}, 
+        { src: "images/portraits/karla.jpg"}, 
+        { src: "images/portraits/leilani.jpg"}, 
+        { src: "images/portraits/mori.jpg"}, 
+        { src: "images/portraits/sophia.JPG"}, 
+        { src: "images/portraits/syvlia.jpg"}, 
+        { src: "images/portraits/sylvia2.jpg"}]
     },
     projects: {
       title: "Projects",
@@ -47,11 +47,14 @@ document.addEventListener("DOMContentLoaded", () => {
     document.title = `${category.title} | Maddi Green Photography`;
     document.getElementById("category-title").textContent = category.title;
     document.getElementById("category-description").textContent = category.description;
-    categoryGallery.innerHTML = category.images.map(image => `
+    categoryGallery.innerHTML = category.images.map(image => {
+      const imageSrc = typeof image === "string" ? image : image.src;
+      return`
       <div class="gallery-item">
-        <img src="${src}">
+        <img src="${imageSrc}">
       </div>
-    `).join("");
+    `;
+  }).join("");
   }
 
   // --- Lightbox ---
