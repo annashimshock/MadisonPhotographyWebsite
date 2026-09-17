@@ -5,18 +5,18 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "Relaxed portraits that feel like you, not a performance.",
       images: [
         { src: "images/portraits/aidan.jpg"}, 
-        { src: "images/portraits/anna.jpg"}, 
+        { src: "images/portraits/sylvia2.jpg"},
         { src: "images/portraits/arsema.jpg"}, 
         { src: "images/portraits/cayla.jpg"}, 
         { src: "images/portraits/chayla.jpg"}, 
         { src: "images/portraits/felix.jpg"}, 
-        { src: "images/portraits/kage.jpg"}, 
         { src: "images/portraits/karla.jpg"}, 
         { src: "images/portraits/leilani.jpg"}, 
         { src: "images/portraits/mori.jpg"}, 
+        { src: "images/portraits/anna.jpg"},
+        { src: "images/portraits/kage.jpg"},
         { src: "images/portraits/sophia.JPG"}, 
-        { src: "images/portraits/sylvia.jpg"}, 
-        { src: "images/portraits/sylvia2.jpg"}]
+        { src: "images/portraits/sylvia.jpg"}]
     },
     projects: {
       title: "Projects",
