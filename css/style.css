@@ -105,12 +105,15 @@ footer {
 
 
 .gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 40px;
 }
+
+
 
 .gallery-page,
 .category-page {
@@ -238,13 +241,16 @@ footer {
 }
 
 .gallery-item {
+  width: 100%;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .gallery-item img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
   display: block;
   transition: transform 0.3s ease, opacity 0.3s ease;
   cursor: pointer;
@@ -348,6 +354,10 @@ footer {
   .category-card,
   .category-card--wide {
     min-height: 280px;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
   }
 }
 
