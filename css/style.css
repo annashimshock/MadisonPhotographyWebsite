@@ -104,13 +104,13 @@ footer {
 }
 
 
-.gallery {
+/* .gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
   padding: 40px;
-}
+} */
 
 .gallery-page,
 .category-page {
@@ -151,7 +151,7 @@ footer {
 }
 
 .category-card {
-  position: static;
+  position: relative;
   grid-column: span 4;
   min-height: 330px;
   overflow: hidden;
