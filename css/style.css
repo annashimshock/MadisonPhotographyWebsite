@@ -151,7 +151,7 @@ footer {
 }
 
 .category-card {
-  position: relative;
+  position: static;
   grid-column: span 4;
   min-height: 330px;
   overflow: hidden;
