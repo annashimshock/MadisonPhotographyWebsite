@@ -26,7 +26,14 @@ document.addEventListener("DOMContentLoaded", () => {
     concerts: {
       title: "Concerts",
       description: "The energy, color, and split seconds that make a live show unforgettable.",
-      images: [{ src: "images/House.jpeg"}]
+      images: [
+        { src: "images/concerts/bassist.jpg"},
+        { src: "images/concerts/drummer.jpg"},
+        { src: "images/concerts/ghost.JPG"},
+        { src: "images/concerts/kazoo.jpg"},
+        { src: "images/concerts/microphone.jpg"},
+        { src: "images/concerts/singer.jpg"},
+        { src: "images/concerts/teacher.jpg"}]
     },
     weddings: {
       title: "Weddings",
