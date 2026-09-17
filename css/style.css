@@ -107,9 +107,8 @@ footer {
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-auto-flow: dense;
   gap: 20px;
-  max-width: 1200 px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -248,19 +247,11 @@ footer {
 .gallery-item img {
   width: 100%;
   height: 100%;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   display: block;
   transition: transform 0.3s ease, opacity 0.3s ease;
   cursor: pointer;
-}
-
-.gallery-item.landscape {
-  grid-column: span 2;
-}
-
-.gallery-item.landscape img {
-  aspect-ratio: 16 / 9;
 }
 
 .gallery-item img:hover {
@@ -365,9 +356,6 @@ footer {
 
   .gallery {
     grid-template-columns: 1fr;
-  }
-  .gallery-item.landscape img {
-  aspect-ratio: 16 / 9;
   }
 }
 

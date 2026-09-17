@@ -96,24 +96,4 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
   }
-
-  window.addEventListener('DOMContentLoaded', () => {
-    const items = document.querySelectorAll('.gallery-item img');
-
-    items.forEach(img => {
-      const checkOrientation = () => {
-        // If width is greater than height, mark parent container as landscape
-        if (img.naturalWidth > img.naturalHeight) {
-          img.parentElement.classList.add('landscape');
-        }
-      };
-
-      // Check immediately if already cached, or wait for load event
-      if (img.complete) {
-        checkOrientation();
-      } else {
-        img.addEventListener('load', checkOrientation);
-      }
-    });
-  });
 });
