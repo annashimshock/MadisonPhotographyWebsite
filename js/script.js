@@ -30,7 +30,9 @@ document.addEventListener("DOMContentLoaded", () => {
             { src: "images/projects/wMidterm1.jpg" },
             { src: "images/projects/wMidterm2.jpg" },
             { src: "images/projects/wMidterm3.jpg" },
-            { src: "images/projects/wMidterm4.jpg" }
+            { src: "images/projects/wMidterm4.jpg" },
+            { src: "images/projects/wMidterm5.jpg" },
+            { src: "images/projects/wMidterm6.jpg" }
           ]
         },
         {
