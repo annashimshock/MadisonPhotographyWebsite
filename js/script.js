@@ -54,6 +54,9 @@ document.addEventListener("DOMContentLoaded", () => {
           images: [
             { src: "images/projects/sMidterm1.jpg" },
             { src: "images/projects/sMidterm2.jpg" },
+            { src: "images/projects/sMidterm3.jpg" },
+            { src: "images/projects/sMidterm4.jpg" },
+            { src: "images/projects/sMidterm5.jpg" },
             { src: "images/projects/sMidterm6.jpg" }
           ]
         },
