@@ -16,7 +16,9 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "images/portraits/felix.jpg" },
         { src: "images/portraits/cayla.jpg" },
         { src: "images/portraits/sophia.JPG" },
-        { src: "images/portraits/sylvia.jpg" }
+        { src: "images/portraits/sylvia.jpg" },
+        { src: "images/portraits/shamp.jpg" },
+        { src: "images/portraits/oldman.jpg" }
       ]
     },
     projects: {
@@ -82,7 +84,18 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "images/concerts/kazoo.jpg" },
         { src: "images/concerts/microphone.jpg" },
         { src: "images/concerts/singer.jpg" },
-        { src: "images/concerts/teacher.jpg" }
+        { src: "images/concerts/teacher.jpg" },
+        { src: "images/concerts/guitarist.jpg" }
+      ]
+    },
+    weddings: { 
+      title: "Weddings",
+      // description: "Capturing the magic of your special day.",
+      images: [
+        { src: "images/testing/Anna.jpg" },
+        { src: "images/testing/Anna.jpg" },
+        { src: "images/testing/Anna.jpg" },
+        { src: "images/testing/Anna.jpg" }
       ]
     },
     nature: {
@@ -97,6 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "images/nature/puffin2.jpeg" },
         { src: "images/nature/puffin3.jpeg" },
         { src: "images/nature/fish.jpeg" },
+        { src: "images/nature/jellyfish.jpg" },
         { src: "images/nature/otter.jpeg" },
         { src: "images/nature/goat.jpeg" },
         { src: "images/nature/giraffe.jpeg" },
@@ -110,6 +124,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "images/nature/waterfall.jpeg" },
         { src: "images/nature/lookout.jpeg" },
         { src: "images/nature/harbor.jpeg" },
+        { src: "images/nature/beach.jpg" },
         { src: "images/nature/window.jpeg" }
       ]
     }
