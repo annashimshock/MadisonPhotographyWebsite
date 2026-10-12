@@ -92,10 +92,9 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "Weddings",
       // description: "Capturing the magic of your special day.",
       images: [
-        { src: "images/testing/Anna.jpg" },
-        { src: "images/testing/Anna.jpg" },
-        { src: "images/testing/Anna.jpg" },
-        { src: "images/testing/Anna.jpg" }
+        { src: "images/weddings/wedding1.jpeg" },
+        { src: "images/weddings/wedding2.jpeg" },
+        { src: "images/weddings/wedding3.jpeg" }
       ]
     },
     nature: {
