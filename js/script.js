@@ -124,7 +124,10 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "images/nature/harbor.jpeg" },
         { src: "images/nature/beach.jpg" },
         { src: "images/nature/beach2.jpeg" },
-        { src: "images/nature/window.jpeg" }
+        { src: "images/nature/window.jpeg" },
+        { src: "images/nature/leaves.JPG" },
+        { src: "images/nature/leaves2.JPG" },
+        { src: "images/nature/needle.JPG" }
       ]
     }
   };
