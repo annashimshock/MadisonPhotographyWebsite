@@ -309,10 +309,10 @@ nav a:hover {
 .about {
   min-height: 75vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  text-align: left;
+  gap: 60px;
   padding: 60px 24px;
 }
 
