@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "images/concerts/microphone.jpg" },
         { src: "images/concerts/singer.jpg" },
         { src: "images/concerts/teacher.jpg" },
-        { src: "images/concerts/guitarist.jpg" }
+        { src: "images/concerts/guitarist.jpeg" }
       ]
     },
     weddings: { 
