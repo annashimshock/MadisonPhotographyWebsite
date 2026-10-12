@@ -112,7 +112,6 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "images/nature/otter.jpeg" },
         { src: "images/nature/goat.jpeg" },
         { src: "images/nature/giraffe.jpeg" },
-        { src: "images/nature/giraffe.jpeg" },
         { src: "images/nature/wolf.jpeg" },
         { src: "images/nature/house.jpeg" },
         { src: "images/nature/barn.jpeg" },
