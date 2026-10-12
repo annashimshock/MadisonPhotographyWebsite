@@ -65,9 +65,9 @@ document.addEventListener("DOMContentLoaded", () => {
           title: "Spring 2026 Final",
           statement: "For my final, I wanted to highlight the temporary feeling of childhood. When I was little, the only thing I ever thought about was growing up. Now after completing this race for independence I find myself reminiscing on the subtle moments of the life that was once mine. I decided to capture these glimpses of youth to remind myself that finding childlike joy is still a possibility as I get older. When taking the first two sets of images, I decided to use items that I was fond of when I was younger. I used bubble guns and wands to achieve this. While shooting in an outdoor setting, I relied on organic light and natural shadows to properly expose my model. In the last image, I wanted to prioritize the sweet innocent connections that are made at that age. I used the sweet treat of ice cream to help support this idea. All three images are edited in a pop-like way to truly recreate childhood nostalgia. Lastly, I drew doodles on the frames of the images to add to the childlike innocence. Ultimately, I wanted this series to feel close to home while also accepting that things are changing. It's good to look back on what once was, in hopes to create more nostalgic memories in the future.",
           images: [
-            { src: "images/projects/sFinal1.jpg" },
+            { src: "images/projects/sFinal1.jpeg" },
             { src: "images/projects/sFinal2.jpg" },
-            { src: "images/projects/sFinal3.jpg" }
+            { src: "images/projects/sFinal3.jpeg" }
           ]
         }
       ]
