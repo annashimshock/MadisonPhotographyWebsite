@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
           title: "Winter 2026 Final",
-          statement: "My project focuses on the romanticization and relationship of food. These images create a playful environment, making mundane foods seem inviting and fun rather than a common nerving process such as eating and digestion. Growing up struggling with the idea of food, I wanted to create something that tables the idea of exposing fears in an exciting quirky way while challenging the way we look at categorized gritty, inappropriate mannerisms. I promote this idea by creating abnormal colors and textures in my images. This is done through editorial portraits containing food, and micro food photography..",
+          statement: "My project focuses on the romanticization and relationship of food. These images create a playful environment, making mundane foods seem inviting and fun rather than a common nerving process such as eating and digestion. Growing up struggling with the idea of food, I wanted to create something that tables the idea of exposing fears in an exciting quirky way while challenging the way we look at categorized gritty, inappropriate mannerisms. I promote this idea by creating abnormal colors and textures in my images. This is done through editorial portraits containing food, and micro food photography.",
           images: [
             { src: "images/projects/wFinal1.jpg" },
             { src: "images/projects/wFinal2.jpg" },
