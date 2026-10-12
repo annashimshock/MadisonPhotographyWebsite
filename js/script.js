@@ -43,7 +43,9 @@ document.addEventListener("DOMContentLoaded", () => {
             { src: "images/projects/wFinal4.jpg" },
             { src: "images/projects/wFinal5.jpg" },
             { src: "images/projects/wFinal6.jpg" },
-            { src: "images/projects/wFinal7.jpg" }
+            { src: "images/projects/wFinal7.jpg" },
+            { src: "images/projects/wFinal8.jpg" },
+            { src: "images/projects/wFinal9.jpg" }
           ]
         },
         {
