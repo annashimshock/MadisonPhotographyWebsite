@@ -253,6 +253,34 @@ nav a:hover {
   opacity: 0.9;
 }
 
+/* Projects Category Page (Project Blocks & Artist Statements) */
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 80px; /* Space between one project and the next */
+}
+
+.project-header {
+  max-width: 720px;
+  margin: 0 auto 32px;
+  text-align: center;
+}
+
+.project-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0 0 12px;
+  letter-spacing: 1px;
+}
+
+.project-statement {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin: 0;
+  opacity: 0.82;
+}
+
 
 /* Lightbox Modal */
 
