@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
           title: "Winter 2026 Final",
-          statement: "Add your artist statement for Winter 2026 Final here.",
+          statement: "My project focuses on the romanticization and relationship of food. These images create a playful environment, making mundane foods seem inviting and fun rather than a common nerving process such as eating and digestion. Growing up struggling with the idea of food, I wanted to create something that tables the idea of exposing fears in an exciting quirky way while challenging the way we look at categorized gritty, inappropriate mannerisms. I promote this idea by creating abnormal colors and textures in my images. This is done through editorial portraits containing food, and micro food photography..",
           images: [
             { src: "images/projects/wFinal1.jpg" },
             { src: "images/projects/wFinal2.jpg" },
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
           title: "Spring 2026 Final",
-          statement: "Add your artist statement for Spring 2026 Final here.",
+          statement: "For my final, I wanted to highlight the temporary feeling of childhood. When I was little, the only thing I ever thought about was growing up. Now after completing this race for independence I find myself reminiscing on the subtle moments of the life that was once mine. I decided to capture these glimpses of youth to remind myself that finding childlike joy is still a possibility as I get older. When taking the first two sets of images, I decided to use items that I was fond of when I was younger. I used bubble guns and wands to achieve this. While shooting in an outdoor setting, I relied on organic light and natural shadows to properly expose my model. In the last image, I wanted to prioritize the sweet innocent connections that are made at that age. I used the sweet treat of ice cream to help support this idea. All three images are edited in a pop-like way to truly recreate childhood nostalgia. Lastly, I drew doodles on the frames of the images to add to the childlike innocence. Ultimately, I wanted this series to feel close to home while also accepting that things are changing. It's good to look back on what once was, in hopes to create more nostalgic memories in the future.",
           images: [
             { src: "images/projects/sFinal1.jpg" },
             { src: "images/projects/sFinal2.jpg" },
