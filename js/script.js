@@ -85,11 +85,6 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "images/concerts/teacher.jpg" }
       ]
     },
-    weddings: {
-      title: "Weddings",
-      // description: "Honest images of the day, from the big promises to the quiet glances.",
-      images: [{ src: "images/Anna.jpg" }]
-    },
     landscapes: {
       title: "Landscapes",
       // description: "Clean, confident portraits for wherever your work takes you.",
