@@ -96,7 +96,6 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "images/nature/puffin1.jpeg" },
         { src: "images/nature/puffin2.jpeg" },
         { src: "images/nature/puffin3.jpeg" },
-        { src: "images/nature/starfish.jpeg" },
         { src: "images/nature/otter.jpeg" },
         { src: "images/nature/goat.jpeg" },
         { src: "images/nature/giraffe.jpeg" },
