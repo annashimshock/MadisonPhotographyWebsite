@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
       projectList: [
         {
           title: "Winter 2026 Midterm",
-          statement: "Add your artist statement for Winter 2026 Midterm here.",
+          statement:"",
           images: [
             { src: "images/projects/wMidterm1.jpg" },
             { src: "images/projects/wMidterm2.jpg" },
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
           title: "Spring 2026 Midterm",
-          statement: "Add your artist statement for Spring 2026 Midterm here.",
+          statement: "",
           images: [
             { src: "images/projects/sMidterm1.jpg" },
             { src: "images/projects/sMidterm2.jpg" },
