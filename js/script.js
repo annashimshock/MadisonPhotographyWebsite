@@ -85,8 +85,8 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "images/concerts/teacher.jpg" }
       ]
     },
-    landscapes: {
-      title: "Landscapes",
+    nature: {
+      title: "Nature",
       // description: "Clean, confident portraits for wherever your work takes you.",
       images: [{ src: "images/House.jpeg" }]
     }
