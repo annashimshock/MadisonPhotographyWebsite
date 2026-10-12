@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const categoryData = {
     portraits: {
       title: "Portraits",
-      description: "Relaxed portraits that feel like you, not a performance.",
+      // description: "Relaxed portraits that feel like you, not a performance.",
       images: [
         { src: "images/portraits/aidan.jpg" },
         { src: "images/portraits/sylvia2.jpg" },
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     projects: {
       title: "Projects",
-      description: "A bright, personal collection for the start of something new.",
+      // description: "A bright, personal collection for the start of something new.",
       projectList: [
         {
           title: "Winter 2026 Midterm",
@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     concerts: {
       title: "Concerts",
-      description: "The energy, color, and split seconds that make a live show unforgettable.",
+      // description: "The energy, color, and split seconds that make a live show unforgettable.",
       images: [
         { src: "images/concerts/bassist.jpg" },
         { src: "images/concerts/drummer.jpg" },
@@ -88,12 +88,12 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     weddings: {
       title: "Weddings",
-      description: "Honest images of the day, from the big promises to the quiet glances.",
+      // description: "Honest images of the day, from the big promises to the quiet glances.",
       images: [{ src: "images/Anna.jpg" }]
     },
     landscapes: {
       title: "Landscapes",
-      description: "Clean, confident portraits for wherever your work takes you.",
+      // description: "Clean, confident portraits for wherever your work takes you.",
       images: [{ src: "images/House.jpeg" }]
     }
   };
