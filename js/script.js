@@ -123,6 +123,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "images/nature/lookout.jpeg" },
         { src: "images/nature/harbor.jpeg" },
         { src: "images/nature/beach.jpg" },
+        { src: "images/nature/beach2.jpeg" },
         { src: "images/nature/window.jpeg" }
       ]
     }
