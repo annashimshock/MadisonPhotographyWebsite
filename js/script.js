@@ -96,15 +96,21 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "images/nature/puffin1.jpeg" },
         { src: "images/nature/puffin2.jpeg" },
         { src: "images/nature/puffin3.jpeg" },
+        { src: "images/nature/fish.jpeg" },
         { src: "images/nature/otter.jpeg" },
         { src: "images/nature/goat.jpeg" },
         { src: "images/nature/giraffe.jpeg" },
         { src: "images/nature/giraffe.jpeg" },
         { src: "images/nature/wolf.jpeg" },
         { src: "images/nature/house.jpeg" },
+        { src: "images/nature/barn.jpeg" },
         { src: "images/nature/granite.jpeg" },
         { src: "images/nature/rattlesnake.jpeg" },
-        { src: "images/nature/townsend.jpeg" }
+        { src: "images/nature/townsend.jpeg" },
+        { src: "images/nature/waterfall.jpeg" },
+        { src: "images/nature/lookout.jpeg" },
+        { src: "images/nature/harbor.jpeg" },
+        { src: "images/nature/window.jpeg" }
       ]
     }
   };
