@@ -88,7 +88,25 @@ document.addEventListener("DOMContentLoaded", () => {
     nature: {
       title: "Nature",
       // description: "Clean, confident portraits for wherever your work takes you.",
-      images: [{ src: "images/House.jpeg" }]
+      images: [
+        { src: "images/nature/bird1.jpeg" },
+        { src: "images/nature/bird2.jpeg" },
+        { src: "images/nature/bird3.jpeg" },
+        { src: "images/nature/bird4.jpeg" },
+        { src: "images/nature/puffin1.jpeg" },
+        { src: "images/nature/puffin2.jpeg" },
+        { src: "images/nature/puffin3.jpeg" },
+        { src: "images/nature/starfish.jpeg" },
+        { src: "images/nature/otter.jpeg" },
+        { src: "images/nature/goat.jpeg" },
+        { src: "images/nature/giraffe.jpeg" },
+        { src: "images/nature/giraffe.jpeg" },
+        { src: "images/nature/wolf.jpeg" },
+        { src: "images/nature/house.jpeg" },
+        { src: "images/nature/granite.jpeg" },
+        { src: "images/nature/rattlesnake.jpeg" },
+        { src: "images/nature/townsend.jpeg" }
+      ]
     }
   };
 
