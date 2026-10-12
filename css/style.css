@@ -312,7 +312,7 @@ nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: left;
   padding: 60px 24px;
 }
 
