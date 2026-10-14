@@ -153,6 +153,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const img = document.createElement("img");
     img.src = src;
     img.alt = imageObj.alt || altText || "";
+    img.loading = "lazy";
 
     img.addEventListener("click", () => {
       if (lightbox && lightboxImg) {
