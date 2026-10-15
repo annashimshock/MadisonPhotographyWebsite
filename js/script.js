@@ -96,10 +96,10 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "images/weddings/wedding2.jpeg" },
         { src: "images/weddings/wedding3.jpeg" },
         { src: "images/weddings/wedding4.jpeg" },
-        { src: "images/weddings/bride.jpeg" },
-        { src: "images/weddings/couple.jpeg" },
-        { src: "images/weddings/weddingBride.jpeg" },
-        { src: "images/weddings/weddingWater.jpeg" }
+        { src: "images/weddings/bride.jpg" },
+        { src: "images/weddings/couple.jpg" },
+        { src: "images/weddings/weddingBride.jpg" },
+        { src: "images/weddings/weddingWater.jpg" }
       ]
     },
     nature: {
