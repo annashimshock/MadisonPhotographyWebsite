@@ -1,5 +1,6 @@
 import os
 from PIL import Image
+from PIL import ImageOps
 
 IMAGE_DIR = "images"
 MAX_SIZE = 2048 
@@ -20,6 +21,8 @@ for root, dirs, files in os.walk(IMAGE_DIR):
             
             try:
                 img = Image.open(filepath)
+
+                img = ImageOps.exif_transpose(img)
                 
                 # thumbnail() resizes proportionally to fit inside MAX_SIZE
                 img.thumbnail((MAX_SIZE, MAX_SIZE), Image.Resampling.LANCZOS)
